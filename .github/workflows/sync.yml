@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.8
         with:
-          token: ${{ secrets.TOKEN }}
+          token: ${{ github.TOKEN }}
           owner: blackmatrix7
           base: master
           head: master
