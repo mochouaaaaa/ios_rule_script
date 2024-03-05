@@ -1,15 +1,15 @@
 name: AllInOne
-desc: 最后更新时间 2024-03-04 02:16:05
+desc: 最后更新时间 2024-03-06 02:17:00
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
 # domain: 5
 # http-request-script: 1
 # http-response-script: 25
 # redirect: 8
-# reject: 635
+# reject: 638
 # mitm: 668
 # force-http-engine-hosts: 6
-# total: 1348
+# total: 1351
 
 
 
@@ -31,6 +31,7 @@ http:
     - ^https?:\/\/cn\.ultraiso\.net\/ https://cn.ezbsystems.com/ultraiso/ 302
     - ^https?:\/\/hypersnap\.mairuan\.com\/ https://www.keyshot.com/ 302
     - ^https?:\/\/logoshejishi\.mairuan\.com\/ https://www.sothink.com/product/logo-design-software/ 302
+    - ^http:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json - reject
     - ^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject
     - ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject
@@ -226,6 +227,7 @@ http:
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start - reject
     - ^https?:\/\/api\.m\.jd\.com\/openUpgrade - reject
     - ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start - reject
+    - ^https?:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) - reject
     - ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage - reject
     - ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
     - ^https?:\/\/api\.qbb6\.com\/ad\/ - reject
@@ -554,6 +556,7 @@ http:
     - ^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/ - reject
     - ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin - reject
     - ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
+    - ^https?:\/\/res.kfc.com.cn\/(CRM\/kfcad|advertisement\/) - reject
     - ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
     - ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
     - ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
@@ -869,6 +872,7 @@ http:
     - "*.chelaileapp.cn"
     - "*.cupid.iqiyi.com"
     - "*.ddly666.top"
+    - "*.didapinche.com"
     - "*.ecoliving168.com"
     - "*.google.cn"
     - "*.hoopchina.com"
@@ -1087,7 +1091,6 @@ http:
     - "cap.caocaokeji.cn"
     - "capi.lkcoffee.com"
     - "capi.mwee.cn"
-    - "capis*.didapinche.com"
     - "cappapi.alittle-tea.com"
     - "carapp.gtmc.com.cn"
     - "ccmsupport-sz.tenpay.com"
@@ -1166,6 +1169,7 @@ http:
     - "gateway.36kr.com"
     - "gateway.abite.com"
     - "gateway.shouqiev.com"
+    - "gateway2.etnet.com.hk"
     - "gd.10086.cn"
     - "gfp.veta.naver.com"
     - "gg.caixin.com"
@@ -1451,7 +1455,6 @@ http:
     - "www.coreldrawchina.com"
     - "www.crossoverchina.com"
     - "www.deppon.com"
-    - "www.didapinche.com"
     - "www.dongmansoft.com"
     - "www.earmasterchina.cn"
     - "www.easyrecoverychina.com"
